@@ -11,4 +11,4 @@ This app provides a simple way to convert Google Text to Speech audio to a mp3 f
 
 3. Follow [these steps](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries) to configure and activate your api and credentials
 
-4. Update the path to your credentials json file in `process.php`
+4. Copy the content of your credentials file into `credentials.json`
