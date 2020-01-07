@@ -10,7 +10,7 @@ use Google\Cloud\TextToSpeech\V1\SynthesisInput;
 use Google\Cloud\TextToSpeech\V1\TextToSpeechClient;
 use Google\Cloud\TextToSpeech\V1\VoiceSelectionParams;
 
-putenv("GOOGLE_APPLICATION_CREDENTIALS=your-credentials.json");
+putenv("GOOGLE_APPLICATION_CREDENTIALS=credentials.json");
 
 function synthesize_text($text)
 {
