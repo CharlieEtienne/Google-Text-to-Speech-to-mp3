@@ -32,7 +32,7 @@ function synthesize_text($text)
         ->setSsmlGender($voice_gender);
 
     $audioConfig = (new AudioConfig())
-        ->setAudioEncoding(AudioEncoding::MP3);
+        ->setAudioEncoding(AudioEncoding::LINEAR16);
 
     $response = $client->synthesizeSpeech($input_text, $voice, $audioConfig);
     $audioContent = $response->getAudioContent();
