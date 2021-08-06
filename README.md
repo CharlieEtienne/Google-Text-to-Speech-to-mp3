@@ -1,4 +1,7 @@
 # Google-Text-to-Speech-to-mp3
+
+# Project moved to https://github.com/CharlieEtienne/t2s
+
 Download mp3 from Google Text to Speech API
 
 This app provides a simple way to convert Google Text to Speech audio to a mp3 file you can download.
